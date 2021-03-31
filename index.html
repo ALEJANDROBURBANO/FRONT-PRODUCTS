@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	
+		<div  style="margin:auto; width: 400px; margin-top: 10em; ">
+			<form action="productos.html" method="get" accept-charset="utf-8" class="white">
+
+				<center><div>
+					<img src="img/logo.jpg" alt="" style="width: 200px; margin-top: 50px; margin-bottom: 50px;">
+				</div></center>
+
+				<center><h1>Iniciar sesión</h1></center>
+
+				<div class="grup">
+					<label for="">Usuario</label>
+					<input type="text" placeholder="Usuario" required>
+				</div>
+
+				<div class="grup">
+					<label for="">Contraseña</label>
+					<input id="password" type="password" placeholder="Contraseña" required>
+					
+				</div>
+
+				<input onchange="show_password(this)" type="checkbox" name="" style="height: 14px !important; width: 14px !important; margin-left: 20px;"> Mostrar contraseña
+
+				<div class="grup" style="margin-bottom: 100px; margin-top: 40px;">
+					<a href="productos.html"><button class="btn-save">INICIAR SESIÓN</button></a>
+				</div>
+
+
+
+			</form>
+		</div>
+
+	
+
+
+	<script src="jquery.js"></script>
+	<script src="scripts.js"></script>
+
+</body>
+</html>
